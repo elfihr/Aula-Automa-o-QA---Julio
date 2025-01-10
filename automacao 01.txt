@@ -1,0 +1,31 @@
+Aula QA
+
+>>Processo, Atividade e Artefato
+
+-ARTEFATO: Caso de Teste. Este artefato é a especificação de um conjunto de entradas de teste, 
+condições de execução e resultados esperados, identificados com a finalidade de fazer a avaliação 
+de algum aspecto particular de um cenário.
+
+
+1.Documentação
+-livro de regras de como o produto deve se comportar 
+
+2.Telas UX
+Avaliação de expericencia de usuario
+
+Atividade = revisao prototipo tela, avaliação do Ux e UI
+Artefato = Teste
+
+3.Codificando
+
+Ativiadade = Revisao do code
+Artefato = scritp de teste unidade e integração
+
+Mock = Simulador
+
+4.Testando
+
+Executa teste , automatiza teste
+log,scripts de incidente
+
+5.homologando e entrga

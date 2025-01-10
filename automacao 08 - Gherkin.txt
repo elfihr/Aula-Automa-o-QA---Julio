@@ -1,0 +1,30 @@
+======Gherkin
+
+DECLARATIVO
+
+FUNCIONALIDADE:Calculadora
+COMO um funcionario
+DESEJO conhecer as variações de meu salario
+PARA SABER quanto vou receber
+
+CENARIO Calculo do bonud de salario base
+DADO QUE eu recebo salario base
+E tenho direito ao bonus
+QUANDO eu calculo o bonus
+ENTÂO eu descubro o valor 5600
+MAS perco o direito de receber PLR
+
+
+IMPERATIVO
+
+Cenario acessar site
+DADO QUE se abra o navegador
+E abre o URL
+E Acessa o login
+E digia senha
+QUANDO eu entro para ogar
+E 
+E
+E
+ENTÂO
+E produto listado estoue

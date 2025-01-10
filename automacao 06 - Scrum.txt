@@ -1,0 +1,18 @@
+===TODO
+
+>> US1
+-transferir dinheiro
+-sair de casa
+
+>>US > Task 1
+-Teste relacionais estoria do user
+
+>> US1 > Task 2
+-Construir algoritmo
+
+
+===DOING
+>>US
+-Alterar endpoit
+
+>>US > Task 2

@@ -1,0 +1,15 @@
+1.0 Modelo Cascata
+
+Time com analista teste,automatizadores e testadores, user tester an review for artefacts
+
+1.5 Ágil Imaturo
+
+-Time com Dev, 1 a 2 QA
+
+2.0 Agil Maturação
+
+-Dev, QA, Dev Team
+
+3.0 Agil
+
+-Dev Team por engenheiros de software. Com conhencimento em QA e testes

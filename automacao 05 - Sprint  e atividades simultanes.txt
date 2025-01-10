@@ -1,0 +1,4 @@
+Pode estar acontecendo a codificação e no mesmo momento ja estar sendo feito refinamento.
+
+
+Sprint {planejamento >> codificaçaõ e testes >> Entrega}

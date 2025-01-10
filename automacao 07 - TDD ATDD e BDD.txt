@@ -1,0 +1,12 @@
+=====TEST-DRIVEN-DEVELOPMENT(TDD)
+
+O desenvolvedor guia seu desenvolvimento construindo de uma forma que consiga criar metodos de testes.
+
+=====TEST-DRIVEN-DEVELOPMENT(ATDD)
+
+
+
+=====Behavior-Driven-Test(BDD)
+
+Escrita criada de maneira colaborativa, feito em conjunto com PO,QA e DEV.
+
