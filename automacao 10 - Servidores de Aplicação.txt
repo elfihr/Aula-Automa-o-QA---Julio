@@ -1,0 +1,7 @@
+==>Servidor Web
+
+-fornece info estatica como img, videos.
+
+==>Servidor de Aplicação
+
+Fornece info dinamicas do banco de dados

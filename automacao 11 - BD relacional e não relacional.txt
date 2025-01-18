@@ -1,0 +1,6 @@
+Tipos de estrutura de leituras de dados 
+
+
+O relacional entregue como tabelas visto em programas de banco de dados como postgres e mysql
+
+Não Relcional , entrega a estrutura com informações como String.

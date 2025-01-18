@@ -1,0 +1,21 @@
+Aqui é verificado quantas estorias são aceitas pelo PO
+
+
+===>User History
+-aceitação da historia: 10 estorias/ 9 sao aceitas = 90%
+RE: 10% de estória não aceita.
+
+===>Revisão
+-eficiencia da Revisão: 10 inconcistencias relacionadas ao review / 4 inconcistencias identificadas pré-review= 40%
+RE:houve 60% da não identificação de inconcistencias.
+
+
+===>Defeitos
+-vazamento de defeito: 20 report inconcistencias / 8 idetificado pro-Sprint= 80% identificados
+-eficiencia de remoção de Defeitos: 2 reporte de incidente / 1 corrigido = 50% eficiencia
+
+===>Cobertura
+-cobertura de coódigo: 1000 linhas de código / 2 testes(1 usa 40% outro 60%) = 100% cobertura
+
+===>Satisfação dos Clientes
+-Net Promoter Score (NPS): "Qual a probabilidade de você recomendar?"

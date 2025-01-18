@@ -1,0 +1,3 @@
+conteiner Sao semelhantes a maquinas virtuais so que mais leves, perfeitos para testes e a
+ possibilidade de padronizar o testes fazendo com que seja possivel compartilhar 
+ o mesmo ambiente com outra pessoa

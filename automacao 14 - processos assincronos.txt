@@ -1,0 +1,7 @@
+quando processos demoram para serem executados melhor executa-lo de maneira assincrona.
+nao recebe em tempo real.
+
+Isso é bom para um grande numero de ações que podem travar um processo que 
+seja executao de maneira sincrona(tempo real)
+
+***precisa de monitoramento para ver se esta rodando atraves dos logs(ex)
