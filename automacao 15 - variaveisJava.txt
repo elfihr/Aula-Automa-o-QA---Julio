@@ -1,0 +1,7 @@
+Variaveis: São Espaços de memoria
+
+Como:
+-String,
+-int,
+-Double,
+

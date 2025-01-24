@@ -1,8 +1,10 @@
 Não relacionar
 
-è o crude comum que ja usamos em bancos como postgres, mysql e outros
+é o crude comum que ja usamos em bancos como postgres, mysql e outros
 
 
 Relacional
 
 enviado/consultado como se fosse uma array similar com um json
+
+
