@@ -10,7 +10,7 @@ public class Produto {
     private String nome;
     private String marca;
     private Tamanho tamanho;
-    private double valor;
+    protected double valor;
     private String itensIncluso;
 
     public Produto(String marcaInicial, Tamanho tamanhoInicial) {

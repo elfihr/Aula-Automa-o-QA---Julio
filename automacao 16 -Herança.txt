@@ -1,0 +1,19 @@
+Herança é a capacidade de uma subclasse de ter acesso as propriedades da superclasse
+
+ex:
+public class ProdutoInternacional extends Produto{
+    public ProdutoInternacional(String marcaInicial, Tamanho tamanhoInicial) {
+            super(marcaInicial, tamanhoInicial);
+            //TODO Auto-generated constructor stub
+        }
+}
+
+==>>ProdutoInternacional esta pegando as classes do Produto
+
+    public void setValor(double novoValor) {
+        if(novoValor > -100){
+            this.valor = novoValor;
+        } else {
+            throw new IllegalArgumentException("Valor do Produto deve ser Maior que 0");
+        }
+    }
