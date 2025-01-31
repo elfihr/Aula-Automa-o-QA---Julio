@@ -1,0 +1,27 @@
+Acessar pasta mysql >> mysql8.0
+
+=>Criar banco de dados
+RODAR = CREATE DATABASE lojinha;
+
+=>comando USE
+USE lojinha;
+-altera o contexto do banco de dados para o banco de dados ou instantâneo especificado
+
+=>Criar Tabela
+CREATE TABLE produto(    
+    produtoid INT NOT NULL AUTO_INCREMENT,
+    produtonome VARCHAR(100) NOT NULL,
+    produtomarca VARCHAR(100) NOT NULL,
+    produtotamanho VARCHAR(100) NOT NULL,
+    produtoinclusos VARCHAR(255) NOT NULL, -- Aumentado para 255 se necessário
+    produtovalor DECIMAL(10,2) NOT NULL,  -- Permitindo valores maiores
+    PRIMARY KEY (produtoid)
+);
+
+=>Comando de Insert
+
+INSERT INTO produto (produtonome, produtomarca, produtotamanho, produtoinclusos, produtovalor)  
+VALUES ('PlayStation 5', 'Sony', 'Medio', '1 Controle, Cabos de energia, Manual', 4499.99);
+
+-> Rode um Select ora ver se esta ok
+ SELECT * from produto;
