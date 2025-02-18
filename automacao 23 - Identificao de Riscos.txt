@@ -1,0 +1,19 @@
+====>Identificar os riscos e criar formas de mitigação dos efeitos ou ate a anulação.
+
+-Identifica o riscos
+-Classidifcação riscos
+-Priorização dos riscos
+-Mitigação dos Riscos
+
+-Nivelamento do impacto/probalidade/risco (1 = Baixo; 5 = Alto)
+
+ex:
+ACESSO SOFTWARE
+Probabilidade = 5;
+Impacto = 1;
+
+-NIVEL de Risco P x I
+--Logo seguindo raciocinio 5 x 1 = 5
+---NIVEL DE RISCO = 5
+
+

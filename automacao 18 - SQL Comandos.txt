@@ -1,0 +1,76 @@
+Acessar pasta mysql >> mysql8.0
+
+=====>Criar banco de dados
+RODAR = CREATE DATABASE lojinha;
+
+=====>comando USE
+USE lojinha;
+-altera o contexto do banco de dados para o banco de dados ou instantâneo especificado
+
+=====>Criar Tabela
+CREATE TABLE produto(    
+    produtoid INT NOT NULL AUTO_INCREMENT,
+    produtonome VARCHAR(100) NOT NULL,
+    produtomarca VARCHAR(100) NOT NULL,
+    produtotamanho VARCHAR(100) NOT NULL,
+    produtoinclusos VARCHAR(255) NOT NULL, -- Aumentado para 255 se necessário
+    produtovalor DECIMAL(10,2) NOT NULL,  -- Permitindo valores maiores
+    PRIMARY KEY (produtoid)
+);
+
+=====>Comando de Insert
+
+INSERT INTO produto (produtonome, produtomarca, produtotamanho, produtoinclusos, produtovalor)  
+VALUES ('PlayStation 5', 'Sony', 'Medio', '1 Controle, Cabos de energia, Manual', 4499.99);
+
+
+-> Rode um Select para ver se esta ok
+ SELECT * from produto;
+
+-COmo Fazer SELECT
+    SELECT produtoid, produtonome From produto;
+        Seleciona 2 Colunas
+
+-Ordena em ordem Crescente ->ASC e ->DESC Descrescente
+    SELECT * FROM produto ORDER BY produtonome ASC;
+
+=====>Comando WHERE
+procura produto com id == 5
+SELECT * FROM produto WHERE produtoid = 5;
+
+-Seleciona produto = ps4
+SELECT * FROM produtonome = 'ps4' ;
+
+-Seleciona produto 5,3 ou 2
+SELECT * FROM produto WHERE produtoid = 5 OR produtoid = 2 OR produtoid =3;
+
+-Seleciona produto id 1 e 3
+SELECT * FROM produto WHERE produtoid = 1 AND produtoid =3;
+
+->Seleciona item com a no final == '%a' ou com no começo ==  'b%'
+SELECT * FROM produto WHERE produtoi LIKE '%a';
+
+-> Seleciona Produto com Id menor que 3
+SELECT * FROM produto WHERE produtoid < 3;
+
+
+=====>Comando Alter
+ALTER TABLE itemincluso ADD produtoid int not null;
+
+=====>Dropar coluna na tabela produto
+ALTER TABLE produto DROP COLUMN itemincluso;
+
+===>SELECT com JOIN
+SELECT * FROM produto JOIN itemincluso ON  itemincluso.id = produto.produtoid;
+-seleciona colunas de varias tabelas
+
+===>SELECT com LEFT JOIN
+SELECT * FROM produto LEFT JOIN itemincluso ON  itemincluso.id = produto.produtoid;
+-Seleciona tudo ate linhas que estejam vazias
+
+======>Comando UPDATE
+
+-Autaliza i nome do produto on id = 4
+UPDATE produto SET produto SET produtonome = 'playstation 4' WHERE produtoid = 1;
+
+-UPDATE produto SET produtonome = 'XBOX', produtomarca = 'MIcrosoft' WHERE produto =2;

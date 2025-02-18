@@ -1,0 +1,17 @@
+
+
+TIPO       Variaveis|    Partição     | T1
+----------------------------------------------------
+        |           |  <=  0,00       | 
+        |   Valor   | > 0 e <= 7000   |           
+Entrada |  Prodduto | > 7000          |
+        |---------------------------- |
+        | Tipo de   |  Administrador  |
+        | usuario   | n Administrador |
+--------------------------------------|
+        | Resultado  |  Editar produto|
+        |            |    nao editar  |
+Saidas  |-----------------------------|
+        |perguntar   |     Sim        |
+        |sobre limite|     Não        |
+ -------------------------------------|       

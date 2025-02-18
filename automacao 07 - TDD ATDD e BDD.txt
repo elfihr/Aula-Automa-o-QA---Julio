@@ -10,3 +10,5 @@ O desenvolvedor guia seu desenvolvimento construindo de uma forma que consiga cr
 
 Escrita criada de maneira colaborativa, feito em conjunto com PO,QA e DEV.
 
+
+https://maximilianoalves.medium.com/vader-heuristica-para-teste-de-api-na-pratica-fcf78c6acec

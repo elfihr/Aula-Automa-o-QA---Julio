@@ -1,0 +1,26 @@
+=====>Partição de Equivalencia
+-Identifica variaveis de entrada
+ex: porduto tem valor entre R$ 0,01 a 700,00(nao sendo maior que este valor)
+logo x deve ser maior que 0,00 e menor e igual a 700,00.
+
+<--------------|---------------------|-------------> 
+      x < 0    | x >= 1 && x <= 700  |   x > 700
+
+      En1 = invalido pq é menor que 0
+      En2 = Valido
+      En3 = Invalido pq maior que 700
+
+=====>Regra de Negocio
+-regras de como empresa deve operar
+ex: desconto compras acima 500.00;
+
+
+=====>Exercicio01: 
+    -Um produto so pode ter 16 componentes
+
+r1:  x >= 0 
+r2 : x <= 16
+
+<--------------|---------------------|-------------> 
+     x < 0        x >= 0 && X <= 16      x <= 16
+     Invalido          Valido            Invalido

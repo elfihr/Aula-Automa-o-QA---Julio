@@ -1,0 +1,31 @@
+- metodo para explorar novos caminhos procurarando riscos
+
+-Como não tem uma instrução especifica, pode acabar descobrindo algo ou nada.
+
+-È possivel realizar Teste Exploraatorio com base em falhas e/ou hipoteses.
+
+=====>Heuristicas de Testes
+Planejamento de teste de uma aplicação nunca usada
+
+**Elencar objetivos do que testar
+
+ex:
+-Campos Obrigatorios;
+-Habilitar/Desabilitar Form;
+-Interrupção de Ação;
+-Quebra de Fluxo;
+-UX e UI de Menus;
+-Estouro de Campo;
+
+=====>Chart
+
+è um relatorio de seção mapeando uma seção de testes.
+
+1.Introdução do que é o teste
+2.Duração do Teste
+3.Nome do Tester
+4.Divisão das Tarefass
+5.Arquivos
+6.Notas Gerais(Relatos e notas dos testes)
+7.Bugs(relato Bugs)
+8.Dúvida(sobre o Funcionamento)

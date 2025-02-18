@@ -1,0 +1,9 @@
+Para revisar códigos é necessário ter conhecimento
+
+-É facil Entender?
+-Código obdece as regras do time?
+-Há código Morto?
+-Há algum comentário Desncessário?
+-Tdodos os laços tem um fim correto?
+-Tdosos os comados debug foram removidos?
+-Os tests contidos testam o que propoe testar?
