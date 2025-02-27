@@ -1,0 +1,25 @@
+-Testes em códigos sao ultilizados como contratos.
+-Validam um trecho para continuar funcionando
+
+Uso de Cobertura de uma Sentença
+
+========Quantos testes para fazer a cobertura total(100%) de testes?
+
+public boolean numer9 (double valor){
+    if(valor > 0) {
+        if (valor <= 7000) {
+            return;
+        }
+    }
+    throw new Exception("Valores abaixo de 0,01 sao valores")
+}
+
+Teste01;
+valor = 0,01 
+vai retornar = TRUE
+
+Teste02;
+Valor = 0
+Retorna o erro do Throw
+
+Resp:Nescessario dois testes para fazer a cobertura

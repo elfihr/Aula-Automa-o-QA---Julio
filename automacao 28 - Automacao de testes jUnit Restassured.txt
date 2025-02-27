@@ -1,0 +1,4 @@
+crie um novo projeto Java, acesse o Pom  e adicione <dependences> abaixo de properties
+
+as dependencias desse site
+https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api/5.8.0-M1

@@ -1,0 +1,12 @@
+->Regras de negocios
+    -Testar se os valores esprados estão retornando corretamente
+->Continuação dos Fluxos
+    -ex: login após validação de token e verifficação de dados do token como uma lsta visivel ao user
+-Tipagem de dados
+-Parametros
+-Uso de Token de usuarios diferentes
+-Validação de metodos
+-Listagem de 0, 1 e muitos recursos
+-Estrutura de resposta
+-Codigo dos estados https
+-Documentção dos contratos de API
